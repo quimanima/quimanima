@@ -1,6 +1,6 @@
 from turtle import Turtle, Screen
 from random import randint
-from math import sqrt, pow
+from math import sqrt, pow, cos, sin, acos, pi
 
 tela = Screen()
 
@@ -11,12 +11,19 @@ class Particula_Alfa(object):
         self._desenho.shapesize(0.3,0.3)
         self._desenho.shape('circle')
         self._desenho.speed('fastest')
+        self._angulo = 0
 
-    def _movimentar_particula(self, atomos):
+    def vetor_deslocamento(self):
+        ang = self._angulo
+        ang_rad = (pi*ang)/180
+        return (cos(ang_rad), sin(ang_rad))
+    
+    def movimentar_particula(self, atomos):
         self._desenho.down()
         x, y = self._desenho.position()
-        self._desenho.setheading(270)
-        self._desenho.left(randint(60, 115))
+        self._angulo = randint(-30, 25) # em graus
+        
+        self._desenho.setheading(self._angulo)
         while True:
             colidir = False
             while (self._desenho.xcor() < 500)\
@@ -33,13 +40,22 @@ class Particula_Alfa(object):
             
     def _colidir_atomo(self, atomos):
         colidir = False
-        for i in atomos:
-            distancia_entre_particulas = sqrt(pow(self._desenho.xcor()-i._desenho.xcor(),2) + pow(self._desenho.ycor()-i._desenho.ycor(),2))
+        for a in atomos:
+            distancia_entre_particulas = sqrt(pow(self._desenho.xcor()-a._desenho.xcor(),2) + pow(self._desenho.ycor()-a._desenho.ycor(),2))
             if distancia_entre_particulas <= 10:
-                lado = randint(0,1)
-                if lado == 0: self._desenho.left(randint(45,180))
-                else: self._desenho.right(randint(45,180))
-                colidir = True
+                xa, ya = a._desenho.position()
+                xp, yp = self._desenho.position()
+                vz = (xa-xp, ya-yp)
+                vd = self.vetor_deslocamento()
+                cos_fi = (vz[0]*vd[0] + vz[1]*vd[1])/ \
+                         (sqrt(vz[0]**2 + vz[1]**2)* sqrt(vd[0]**2 + vd[1]**2))
+                
+                angulo_incidencia = acos(cos_fi)*180/pi 
+                self._desenho.left(180-2*angulo_incidencia)
+                print(angulo_incidencia)
+
+                
+                
                 break
             
         if colidir == True: return True
@@ -116,7 +132,7 @@ def main():
         atomos._desenho.up()
         atomos._desenho.setpos(x2,y2)
 
-    alfa._movimentar_particula(liga_ouro._atomos)
+    alfa.movimentar_particula(liga_ouro._atomos)
     
     def exibir_posicao(x, y): print('x = {}\ny = {}'.format(x, y))
     tela.onclick(exibir_posicao)

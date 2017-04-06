@@ -268,7 +268,7 @@ def main():
     for i in range(-300, 301):
         for j in range(-300, 301):
             matriz_posicao[i+linha+largura//2,j+largura//2] = (i+linha+largura//2,j+largura//2)
-        linha -
+        
         
     def exibir_posicao(x, y):
         print('({}, {})'.format(x, y))
