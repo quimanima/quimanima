@@ -2,6 +2,7 @@
 
 Animações com turtle de Python para química do encino médio.
 
+
 ## Arquivos
 
 * distribuicao_eletronica.py: a animação deste módulo restorna ao usuário a distribuição eletrônica de um elemento que o usuário tenha informado.
