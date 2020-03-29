@@ -1,0 +1,119 @@
+Número,Símbolo,Nome,Massa,Grupo,Período,Categoria
+1,H,Hidrogênio,1.00794,1,1,Ametal
+2,He,Hélio,4.002602,18,1,Gás Nobre
+3,Li,Lítio,6941,1,2,Metal Alcalino
+4,Be,Berílio,9.012182,2,2,Metal Alcalino-terroso
+5,B,Boro,10811,13,2,Semi-metal
+6,C,Carbono,12.0107,14,2,Ametal
+7,N,Nitrogênio,14.0067,15,2,Ametal
+8,O,Oxigênio,15.9994,16,2,Ametal
+9,F,Flúor,18.9984032,17,2,Halogênio
+10,Ne,Neônio,20.1797,18,2,Gás Nobre
+11,Na,Sódio,22.98976928,1,3,Metal Alcalino
+12,Mg,Magnésio,24305,2,3,Metal Alcalino-terroso
+13,Al,Alumínio,26.9815386,13,3,Metal-representativo
+14,Si,Silpicio,28.0855,14,3,Semi-metal
+15,P,Fósforo,30.973762,15,3,Ametal
+16,S,Enxofre,32065,16,3,Ametal
+17,Cl,Cloro,35453,17,3,Halogênio
+18,Ar,Argônio,39948,18,3,Gás Nobre
+19,K,Potássio,39.0983,1,4,Metal Alcalino
+20,Ca,Cálcio,40078,2,4,Metal Alcalino-terroso
+21,Sc,Escândio,44.955912,3,4,Metal de Transição
+22,Ti,Titânio,47867,4,4,Metal de Transição
+23,V,Vanádio,50.9415,5,4,Metal de Transição
+24,Cr,Cromo,51.9961,6,4,Metal de Transição
+25,Mn,Manganês,54.938045,7,4,Metal de Transição
+26,Fe,Ferro,55845,8,4,Metal de Transição
+27,Co,Cobalto,58.933195,9,4,Metal de Transição
+28,Ni,Níquel,58.6934,10,4,Metal de Transição
+29,Cu,Cobre,63546,11,4,Metal de Transição
+30,Zn,Zinco,65409,12,4,Metal de Transição
+31,Ga,Gálio,69723,13,4,Metal-representativo
+32,Ge,Gerrmânio,72.64,14,4,Semi-metal
+33,As,Arsênio,74.9216,15,4,Semi-metal
+34,Se,Selênio,78.96,16,4,Ametal
+35,Br,Bromo,79904,17,4,Halogênio
+36,Kr,Criptônio,83798,18,4,Gás Nobre
+37,Rb,Rubídio,85.4678,1,5,Metal Alcalino
+38,Sr,Estrôncio,87.62,2,5,Metal Alcalino-terroso
+39,Y,Ítrio,88.90585,3,5,Metal de Transição
+40,Zr,Zircônio,91224,4,5,Metal de Transição
+41,Nb,Nióbio,92.90638,5,5,Metal de Transição
+42,Mo,Molibdênio,95.94,6,5,Metal de Transição
+43,Tc,Tecnécio,98,7,5,Metal de Transição
+44,Ru,Rutênio,101.07,8,5,Metal de Transição
+45,Rh,Ródio,102.9055,9,5,Metal de Transição
+46,Pd,Paládio,106.42,10,5,Metal de Transição
+47,Ag,Prata,107.8682,11,5,Metal de Transição
+48,Cd,Cádmio,112411,12,5,Metal de Transição
+49,In,Índio,114818,13,5,Metal-representativo
+50,Sn,Estanho,118.71,14,5,Metal-representativo
+51,Sb,Antimônio,121.76,15,5,Semi-metal
+52,Te,Telúrio,128.6,16,5,Semi-metal
+53,I,Iodo,126.90447,17,5,Halogênio
+54,Xe,Xenônio,131293,18,5,Gás Nobre
+55,Cs,Cásio,132.9054519,1,6,Metal Alcalino
+56,Ba,Bário,137327,2,6,Metal Alcalino-terroso
+57,La,Lantânio,138.90547,3,6,Lantanídeo
+58,Ce,Cério,140116,3,6,Lantanídeo
+59,Pr,Praseodímio,140.90765,3,6,Lantanídeo
+60,Nd,Neodímio,144242,3,6,Lantanídeo
+61,Pm,Promécio,145,3,6,Lantanídeo
+62,Sm,Samário,150.36,3,6,Lantanídeo
+63,Eu,Európio,151964,3,6,Lantanídeo
+64,Gd,Gadolínio,157.25,3,6,Lantanídeo
+65,Tb,Térbio,158.92535,3,6,Lantanídeo
+66,Dy,Disprósio,162.5,3,6,Lantanídeo
+67,Ho,Hólmio,164.93032,3,6,Lantanídeo
+68,Er,Érbio,167259,3,6,Lantanídeo
+69,Tm,Túlio,168.93421,3,6,Lantanídeo
+70,Yb,Itérbio,173.04,3,6,Lantanídeo
+71,Lu,Lutécio,174967,3,6,Lantanídeo
+72,Hf,Háfnio,178.49,4,6,Metal de Transição
+73,Ta,Tântalo,180.94788,5,6,Metal de Transição
+74,W,Tungstênio,183.84,6,6,Metal de Transição
+75,Re,Rênio,186207,7,6,Metal de Transição
+76,Os,Ósmio,190.23,8,6,Metal de Transição
+77,Ir,Irídio,192217,9,6,Metal de Transição
+78,Pt,Platina,195084,10,6,Metal de Transição
+79,Au,Ouro,196.966569,11,6,Metal de Transição
+80,Hg,Mercúrio,200.59,12,6,Metal de Transição
+81,Tl,Tálio,204.3833,13,6,Metal-representativo
+82,Pb,Chumbo,207.2,14,6,Metal-representativo
+83,Bi,Bismuto,208.9804,15,6,Metal-representativo
+84,Po,Polônio,210,16,6,Semi-metal
+85,At,Astato,210,17,6,Halogênio
+86,Rn,Radônio,220,18,6,Gás Nobre
+87,Fr,Frâncio,223,1,7,Metal Alcalino
+88,Ra,Rádio,226,2,7,Metal Alcalino-terroso
+89,Ac,Actínio,227,3,7,Actnídeo
+90,Th,Tório,232.03806,3,7,Actnídeo
+91,Pa,Protactínio,231.03588,3,7,Actnídeo
+92,U,Urânio,238.02891,3,7,Actnídeo
+93,Np,Neptúnio,237,3,7,Actnídeo
+94,Pu,Plutônio,244,3,7,Actnídeo
+95,Am,Amerício,243,3,7,Actnídeo
+96,Cm,Cúrio,247,3,7,Actnídeo
+97,Bk,Berquélio,247,3,7,Actnídeo
+98,Cf,Califórnio,251,3,7,Actnídeo
+99,Es,Einstênio,252,3,7,Actnídeo
+100,Fm,Férmio,257,3,7,Actnídeo
+101,Md,Mendelévio,258,3,7,Actnídeo
+102,No,Nobélio,259,3,7,Actnídeo
+103,Lr,Laurêncio,262,3,7,Actnídeo
+104,Rf,Rutherfórdio,267,4,7,Metal de Transição
+105,Db,Dúbnio,268,5,7,Metal de Transição
+106,Sg,Seabórgio,271,6,7,Metal de Transição
+107,Bh,Bóhrio,272,7,7,Metal de Transição
+108,Hs,Hássio,270.1,8,7,Metal de Transição
+109,Mt,Meitnério,276,9,7,Metal de Transição
+110,Ds,Darmstádio,2811,10,7,Metal de Transição
+111,Rg,Roentgênio,280,11,7,Metal de Transição
+112,Cn,Copernício,285,12,7,Metal de Transição
+113,Uut,Ununtrio,284,13,7,Metal-representativo
+114,Fl,Fleróvio,289,14,7,Metal-representativo
+115,Uup,Ununpentio,288,15,7,Metal-representativo
+116,Lv,Livermório,293,16,7,Metal-representativo
+117,Uus,Ununséptio,294,15,7,Halogênio
+118,Uuo,Ununóctio,294,18,7,Gás Nobre
