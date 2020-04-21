@@ -1,6 +1,6 @@
 # Quimanima
 
-Animações com turtle de Python para química do encino médio.
+Animações com turtle de Python para química do ensino médio.
 
 
 ## Arquivos
