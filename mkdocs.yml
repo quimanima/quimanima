@@ -1,6 +1,6 @@
 site_name: Quimanima
 site_url: https://quimanima.readthedocs.io/en/latest/
-site_description: QUIMANIMA: animações computacionais para química do ensino médio
+site_description: "QUIMANIMA: animações computacionais para química do ensino médio"
 repo_url: https://github.com/quimanima/quimanima
 
 theme: 
