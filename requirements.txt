@@ -1,0 +1,3 @@
+mkdocs
+mkdocs-mermaid-plugin
+mkdocs-pymdownx-material-extras
